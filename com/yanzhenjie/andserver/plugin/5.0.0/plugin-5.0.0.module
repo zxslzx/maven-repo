@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "AndServer",
+    "module": "plugin",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "kctrnc3ygfaizh3e4uwrgvgnre"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.yanzhenjie.andserver",
+          "module": "annotation",
+          "version": {
+            "requires": "5.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-5.0.0.jar",
+          "url": "plugin-5.0.0.jar",
+          "size": 7853,
+          "sha512": "6715271a537f2ccba1bca1782dfdaac1f3acc8fc339756835cd297353ff870e8e330fcd4b5dab3337d8a36792734a331c4924822597e2f9267a23308fa1a35ab",
+          "sha256": "af7b306616b8c65fcc25ae0dc0bcd18bf002d4c9b53823e35c195c8f0e7d9e99",
+          "sha1": "c7041e175082f2b686721fd860ae00d04bead1e9",
+          "md5": "cd8acaecb03df5e27b03895310944578"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "com.yanzhenjie.andserver",
+          "module": "annotation",
+          "version": {
+            "requires": "5.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-5.0.0.jar",
+          "url": "plugin-5.0.0.jar",
+          "size": 7853,
+          "sha512": "6715271a537f2ccba1bca1782dfdaac1f3acc8fc339756835cd297353ff870e8e330fcd4b5dab3337d8a36792734a331c4924822597e2f9267a23308fa1a35ab",
+          "sha256": "af7b306616b8c65fcc25ae0dc0bcd18bf002d4c9b53823e35c195c8f0e7d9e99",
+          "sha1": "c7041e175082f2b686721fd860ae00d04bead1e9",
+          "md5": "cd8acaecb03df5e27b03895310944578"
+        }
+      ]
+    }
+  ]
+}

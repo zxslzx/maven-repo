@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.yanzhenjie.andserver",
+    "module": "processor",
+    "version": "5.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "kctrnc3ygfaizh3e4uwrgvgnre"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.yanzhenjie.andserver",
+          "module": "annotation",
+          "version": {
+            "requires": "5.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "processor-5.0.0.jar",
+          "url": "processor-5.0.0.jar",
+          "size": 61595,
+          "sha512": "56ad77fc1ca692d50ca10bb7077207bfc30487e8d186f51ae210951cf10b031d961f5d7c3f643c6c89ec714e0ecbae46a8ce6b4f43f2a9bc6e36a9900d8fee37",
+          "sha256": "58213f67b4168af67c26a1112c9e1e1bef77ce7544275e282358c35702a36aaf",
+          "sha1": "89aaa6ac3c277b630fca2cb69166497c6b521a2d",
+          "md5": "71e54d0e75e7548e8eb447c783be4e73"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-collections4",
+          "version": {
+            "requires": "4.4"
+          }
+        },
+        {
+          "group": "com.yanzhenjie.andserver",
+          "module": "annotation",
+          "version": {
+            "requires": "5.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "processor-5.0.0.jar",
+          "url": "processor-5.0.0.jar",
+          "size": 61595,
+          "sha512": "56ad77fc1ca692d50ca10bb7077207bfc30487e8d186f51ae210951cf10b031d961f5d7c3f643c6c89ec714e0ecbae46a8ce6b4f43f2a9bc6e36a9900d8fee37",
+          "sha256": "58213f67b4168af67c26a1112c9e1e1bef77ce7544275e282358c35702a36aaf",
+          "sha1": "89aaa6ac3c277b630fca2cb69166497c6b521a2d",
+          "md5": "71e54d0e75e7548e8eb447c783be4e73"
+        }
+      ]
+    }
+  ]
+}

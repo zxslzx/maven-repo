@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.yanzhenjie.andserver",
+    "module": "api",
+    "version": "5.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "kctrnc3ygfaizh3e4uwrgvgnre"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.yanzhenjie.andserver",
+          "module": "annotation",
+          "version": {
+            "requires": "5.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "api-5.0.0.jar",
+          "url": "api-5.0.0.jar",
+          "size": 245709,
+          "sha512": "0199901e9e24a21020fb953673867330046f443d3a1750aeeb86f821226d5b3904f8f7247c5bc79a015107fdb9b88d0a3347480bcd0bc1d1437ab13934f75573",
+          "sha256": "d0ff8107dda4976bccf1bc544743ed97d414098c5cfc8c917aa437be0fe10814",
+          "sha1": "b672537866e5c16150d2edf3c0c40c4c379a4f6e",
+          "md5": "5fb0afc1ea9bb2526bfc5dcc5743c342"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.yanzhenjie.apache",
+          "module": "httpcore",
+          "version": {
+            "requires": "4.4.16"
+          }
+        },
+        {
+          "group": "com.yanzhenjie.apache",
+          "module": "fileupload",
+          "version": {
+            "requires": "1.4"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20231013"
+          }
+        },
+        {
+          "group": "com.yanzhenjie.andserver",
+          "module": "annotation",
+          "version": {
+            "requires": "5.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "api-5.0.0.jar",
+          "url": "api-5.0.0.jar",
+          "size": 245709,
+          "sha512": "0199901e9e24a21020fb953673867330046f443d3a1750aeeb86f821226d5b3904f8f7247c5bc79a015107fdb9b88d0a3347480bcd0bc1d1437ab13934f75573",
+          "sha256": "d0ff8107dda4976bccf1bc544743ed97d414098c5cfc8c917aa437be0fe10814",
+          "sha1": "b672537866e5c16150d2edf3c0c40c4c379a4f6e",
+          "md5": "5fb0afc1ea9bb2526bfc5dcc5743c342"
+        }
+      ]
+    }
+  ]
+}
