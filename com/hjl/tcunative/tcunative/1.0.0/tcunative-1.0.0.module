@@ -27,11 +27,11 @@
         {
           "name": "tcunative-1.0.0.jar",
           "url": "tcunative-1.0.0.jar",
-          "size": 14104,
-          "sha512": "3726741d0664fead76fb3da779316d9b3944fd13f37b0982610d94adc747d7bed168c024fa44762d7a9a8b3df2d221070997f8421a725c12bec8631086495329",
-          "sha256": "8bf097db0a6792a222a4f8eefa5a79317afc82f66220b3316a448741f7567642",
-          "sha1": "bba694252d78f6a86f68ef04c3620a3962b7f2cb",
-          "md5": "9e3fa22c2fbaeb0059702edca3336fe8"
+          "size": 14202,
+          "sha512": "9c9422e268cc15d4b115f378285decdefbb88a3789e0ca8a9a30a805514f2680edd4c22ce3864f57ce3777f94ad00a23526ca942584f05647ef118447e59af70",
+          "sha256": "22f63320b00dc7b9e89e5e4442442380c197aa889560f3f782f39469a0d538b8",
+          "sha1": "1d4749e4f567cb9996a80104891c72889990a39b",
+          "md5": "9fa151bae95c056929053f23b5dca553"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "tcunative-1.0.0.jar",
           "url": "tcunative-1.0.0.jar",
-          "size": 14104,
-          "sha512": "3726741d0664fead76fb3da779316d9b3944fd13f37b0982610d94adc747d7bed168c024fa44762d7a9a8b3df2d221070997f8421a725c12bec8631086495329",
-          "sha256": "8bf097db0a6792a222a4f8eefa5a79317afc82f66220b3316a448741f7567642",
-          "sha1": "bba694252d78f6a86f68ef04c3620a3962b7f2cb",
-          "md5": "9e3fa22c2fbaeb0059702edca3336fe8"
+          "size": 14202,
+          "sha512": "9c9422e268cc15d4b115f378285decdefbb88a3789e0ca8a9a30a805514f2680edd4c22ce3864f57ce3777f94ad00a23526ca942584f05647ef118447e59af70",
+          "sha256": "22f63320b00dc7b9e89e5e4442442380c197aa889560f3f782f39469a0d538b8",
+          "sha1": "1d4749e4f567cb9996a80104891c72889990a39b",
+          "md5": "9fa151bae95c056929053f23b5dca553"
         }
       ]
     }
