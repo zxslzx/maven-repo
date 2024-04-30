@@ -19,7 +19,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 17,
+        "org.gradle.jvm.version": 8,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
@@ -27,11 +27,11 @@
         {
           "name": "tcunative-1.0.0.jar",
           "url": "tcunative-1.0.0.jar",
-          "size": 14202,
-          "sha512": "9c9422e268cc15d4b115f378285decdefbb88a3789e0ca8a9a30a805514f2680edd4c22ce3864f57ce3777f94ad00a23526ca942584f05647ef118447e59af70",
-          "sha256": "22f63320b00dc7b9e89e5e4442442380c197aa889560f3f782f39469a0d538b8",
-          "sha1": "1d4749e4f567cb9996a80104891c72889990a39b",
-          "md5": "9fa151bae95c056929053f23b5dca553"
+          "size": 13966,
+          "sha512": "6b46dfd2d00f0e4f617c1939f41d666c292aa329a88a27342b2b7674a5c44a02c0e0a3524f19d3380c9da43ca59cde8e4a55e31f30f630a920b53e40d6ca7ad9",
+          "sha256": "61ed0dd67fbc9b427614b32e61d68b54330da0e68bb74580e8c83fdc3ff9eceb",
+          "sha1": "52254804126ab1ef0b5fcaaa4729a677e10e25e2",
+          "md5": "a64fbc97fcaeb3b00a7d8e2ab5f90107"
         }
       ]
     },
@@ -40,7 +40,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 17,
+        "org.gradle.jvm.version": 8,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -48,11 +48,11 @@
         {
           "name": "tcunative-1.0.0.jar",
           "url": "tcunative-1.0.0.jar",
-          "size": 14202,
-          "sha512": "9c9422e268cc15d4b115f378285decdefbb88a3789e0ca8a9a30a805514f2680edd4c22ce3864f57ce3777f94ad00a23526ca942584f05647ef118447e59af70",
-          "sha256": "22f63320b00dc7b9e89e5e4442442380c197aa889560f3f782f39469a0d538b8",
-          "sha1": "1d4749e4f567cb9996a80104891c72889990a39b",
-          "md5": "9fa151bae95c056929053f23b5dca553"
+          "size": 13966,
+          "sha512": "6b46dfd2d00f0e4f617c1939f41d666c292aa329a88a27342b2b7674a5c44a02c0e0a3524f19d3380c9da43ca59cde8e4a55e31f30f630a920b53e40d6ca7ad9",
+          "sha256": "61ed0dd67fbc9b427614b32e61d68b54330da0e68bb74580e8c83fdc3ff9eceb",
+          "sha1": "52254804126ab1ef0b5fcaaa4729a677e10e25e2",
+          "md5": "a64fbc97fcaeb3b00a7d8e2ab5f90107"
         }
       ]
     }
