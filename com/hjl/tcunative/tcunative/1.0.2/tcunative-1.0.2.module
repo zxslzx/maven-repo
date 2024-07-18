@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hjl.tcunative",
+    "module": "tcunative",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "tcunative-1.0.2.jar",
+          "url": "tcunative-1.0.2.jar",
+          "size": 39640,
+          "sha512": "355859af3eb4b46279fb7bae585ec7d0ad33107106156fff1b9e78efb81674d60bcfdba300d588a7310db93db356348a9b21c5cd6abcd9c5de709ff9f7db4440",
+          "sha256": "99ef293984b0405db1cf1e70c4e8fe9a7741a1b096ea617f07c052f721a84681",
+          "sha1": "2b3113e85d46e6f27c097e264679869026fa2a6b",
+          "md5": "e65685cd2db9bf1cbafa9c5fbbae8f79"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tcunative-1.0.2.jar",
+          "url": "tcunative-1.0.2.jar",
+          "size": 39640,
+          "sha512": "355859af3eb4b46279fb7bae585ec7d0ad33107106156fff1b9e78efb81674d60bcfdba300d588a7310db93db356348a9b21c5cd6abcd9c5de709ff9f7db4440",
+          "sha256": "99ef293984b0405db1cf1e70c4e8fe9a7741a1b096ea617f07c052f721a84681",
+          "sha1": "2b3113e85d46e6f27c097e264679869026fa2a6b",
+          "md5": "e65685cd2db9bf1cbafa9c5fbbae8f79"
+        }
+      ]
+    }
+  ]
+}
